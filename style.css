@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/maldives.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.logo img {
+  width: 150px;
+  float: left;
+}
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+.title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+  color: white;
+}
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
